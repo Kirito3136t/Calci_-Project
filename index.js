@@ -22,7 +22,7 @@ let clicked=document.querySelectorAll('.button');
 Array.from(clicked).forEach((element) =>{
     element.addEventListener('click',(e)=>{
         if(e.target.innerHTML=='='){
-            string = eval(string);
+            string = eval(string).toFixed(2);
             document.getElementById('display').innerHTML=string;
         }else if(e.target.innerHTML=='C'){
             string ="";
