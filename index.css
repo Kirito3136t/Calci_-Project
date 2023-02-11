@@ -1,0 +1,215 @@
+
+
+body {
+	font-family: Roboto, sans-serif;
+	text-align: center;	
+}
+h1{
+	margin-left: 52%;
+}
+.main {
+	border-radius: 2%;
+	padding: 50px 370px 30px 50px;
+	background-color:#AAC4FF;
+	display: grid;
+	width: 200px;
+	margin-left: calc(50vw - 100px);
+	font-size: 30px;
+	grid-template-areas: 
+	"display     display     display      display     "
+	"AC          AC 	     backspace 	  divide"
+	"seven		 eight		 nine 		  multiply"
+	"four 		 five 	 	 six 		  minus"
+	"one 		 two 		 three 		  plus"
+	"zeroo 	 	 zeroo 		decimal	      equals";
+}
+
+#display {
+	grid-area: display;
+	border: 1px solid black;
+	padding: 30px;
+	text-align: right;
+	color: black;
+	background-color:#FFF8E1;
+	margin-bottom: 10px;
+}
+#clear {
+	grid-area: AC;
+	border: 1px solid black;
+	font-size: 30px;
+	padding: 10px;
+	margin:10px 20px 10px 20px;
+	color: black;
+	
+	
+	
+}
+#modulo {
+	grid-area: backspace;
+	color: black;
+	font-size: 30px;
+	padding: 10px;
+	margin:10px 20px 10px 20px;
+	background-color: #F8F988;
+	border: 1px solid black;
+	
+	
+}
+#divide {
+	grid-area: divide;
+	border: 1px solid black;
+	font-size: 30px;
+	padding: 10px;
+	margin:10px 20px 10px 20px;	
+	color: black;
+	background-color: #F8F988;
+	
+}
+#zero {
+	grid-area: zeroo;
+	border: 1px solid black;
+	text-align: right;
+	color: black;
+	font-size: 30px;
+	padding: 10px;
+	margin:10px 20px 10px 20px;
+	padding-right: 15%;
+	background-color: #F5F5F5;
+}
+#seven {
+	grid-area: seven;
+	border: 1px solid black;
+	font-size: 30px;
+	padding: 10px;
+	margin:10px 20px 10px 20px;
+	color: black;
+	background-color: #F5F5F5;
+}
+#eight {
+	grid-area: eight;
+	border: 1px solid black;
+	font-size: 30px;
+	padding: 10px;
+	color: black;
+	margin:10px 20px 10px 20px;
+	background-color: #F5F5F5;
+}
+#nine {
+	grid-area: nine;
+	border: 1px solid black;
+	color: black;
+	font-size: 30px;
+	padding: 10px;
+	margin:10px 20px 10px 20px;
+	background-color: #F5F5F5;
+}
+#multiply {
+	grid-area: multiply;
+	border: 1px solid black;
+	font-size: 30px;
+	color: black;
+	padding: 10px;
+	background-color: #F8F988;
+	margin:10px 20px 10px 20px;
+	
+	
+}
+#four {
+	font-size: 30px;
+	margin:10px 20px 10px 20px;
+	grid-area: four;
+	border: 1px solid black;
+	padding: 10px;
+	color: black;
+	background-color: #F5F5F5;
+}
+#five {
+	font-size: 30px;
+	padding: 10px;
+	margin:10px 20px 10px 20px;
+	grid-area: five;
+	border: 1px solid black;
+	color: black;
+	background-color: #F5F5F5;
+}
+#six {
+	font-size: 30px;
+	margin:10px 20px 10px 20px;
+	grid-area: six;
+	border: 1px solid black;
+	padding: 10px;
+	background-color: #F5F5F5;
+	color: black;
+}
+#minus {
+	grid-area: minus;
+	border: 1px solid black;
+	font-size: 30px;
+	background-color: #F8F988;
+	padding: 10px;
+	margin:10px 20px 10px 20px;
+	color: black;
+	
+}
+#one {
+	grid-area: one;
+	border: 1px solid black;
+	font-size: 30px;
+	padding: 10px;
+	margin:10px 20px 10px 20px;
+	color: black;
+	background-color: #F5F5F5;
+}
+#two {
+	grid-area: two;
+	border: 1px solid black;
+	font-size: 30px;
+	padding: 10px;
+	color: black;
+	margin:10px 20px 10px 20px;
+	background-color: #F5F5F5;
+}
+#three {
+	grid-area: three;
+	border: 1px solid black;
+	font-size: 30px;
+	padding: 10px;
+	color: black;
+	margin:10px 20px 10px 20px;
+	background-color: #F5F5F5;
+}
+#plus {
+	grid-area: plus;
+	background-color: #F8F988;
+	border: 1px solid black;
+	font-size: 30px;
+	padding: 10px;
+	margin:10px 20px 10px 20px;
+	color: black;
+	
+}
+#decimal {
+	grid-area: decimal;
+	border: 1px solid black;
+	padding: 10px;
+	margin:10px 20px 10px 20px;
+	padding-right: 15%;
+	background-color: #F5F5F5;
+	font-weight: bold;
+	color: black;
+}
+#equals {
+	grid-area: equals;
+	border: 1px solid black;
+	font-size: 30px;
+	padding: 10px;
+	margin:10px 20px 10px 20px;
+	color: black;
+	
+}
+
+.button:hover {
+	cursor: pointer;
+	color: white;
+	background-color: lightcyan !important;
+}
